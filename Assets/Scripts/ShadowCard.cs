@@ -14,7 +14,7 @@ public class ShadowCard : MonoBehaviour {
         if (choice == choseCard)
         {
             GameObject.FindWithTag("GameController").GetComponent<MainCard>().Restart();
-            Debug.Log("true");
+            GameObject.FindWithTag("GameController").GetComponent<Timer>().NextLvl();
         }
         else
         {

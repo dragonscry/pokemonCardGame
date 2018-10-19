@@ -53,16 +53,6 @@ public class MainCard : MonoBehaviour {
                     Instantiate(shadows[k], vectors[i], Quaternion.identity);
 
                 }
-                else if(k == 0)
-                {
-                    Instantiate(shadows[k + 1], vectors[i], Quaternion.identity);
-
-                }
-                else if (k == 9)
-                {
-                    Instantiate(shadows[k - 1], vectors[i], Quaternion.identity);
-
-                }
                 else if (k == randChoice)
                 {
                     k = Random.Range(0, pokLength);

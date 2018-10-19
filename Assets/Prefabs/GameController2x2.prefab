@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1653543433790570}
+  m_IsPrefabAsset: 1
+--- !u!1 &1653543433790570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4192700345600662}
+  - component: {fileID: 114214772403607442}
+  - component: {fileID: 114663547991629290}
+  m_Layer: 0
+  m_Name: GameController2x2
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4192700345600662
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653543433790570}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06, y: 2.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114214772403607442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653543433790570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc08674a6f924c1492ac3e8f3b3a551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemons:
+  - {fileID: 1732508412430714, guid: 6415919c2b5674ef7990997bbc9ea3f8, type: 2}
+  - {fileID: 1775274467938862, guid: 75888960ff6a148b7ab76c237f887632, type: 2}
+  - {fileID: 1671504709378842, guid: 377c0fd0419b5408d9c75ee32eb3604d, type: 2}
+  - {fileID: 1400166091570102, guid: 895f89b537d154b1f97d4745a5e899e1, type: 2}
+  - {fileID: 1358741624147502, guid: cbeb5f1b4083f4491a9254288a8d2259, type: 2}
+  - {fileID: 1222104308452720, guid: b222e5414344e49b3baff2cf23b4c997, type: 2}
+  - {fileID: 1260246883787382, guid: 1298eb8e14ca9462681dacc90196e895, type: 2}
+  - {fileID: 1504875891286988, guid: b635a91a32e314475842afa84374fa17, type: 2}
+  - {fileID: 1577620178782122, guid: d43a5bb6117594f6b8279b39f206387e, type: 2}
+  - {fileID: 1678000500160130, guid: cb9f0f6bd948a490d87f02376ff708ba, type: 2}
+  shadows:
+  - {fileID: 1778502717194712, guid: 0184ab8bdd91346fdbbd2ddbb6a73547, type: 2}
+  - {fileID: 1952784029562810, guid: f9381076a9e6e4a3cb576fae61c83755, type: 2}
+  - {fileID: 1549208368797406, guid: 79c1d23e0551342a49ce44fe4aff2782, type: 2}
+  - {fileID: 1300578904926324, guid: 075a8d9e8b615436e819205077241b9f, type: 2}
+  - {fileID: 1632901968473226, guid: f80633148ce29430092239e1c42ea1e2, type: 2}
+  - {fileID: 1092222528127740, guid: 708c16d4a318c4d6981571f6756b7248, type: 2}
+  - {fileID: 1660913843809256, guid: 66c75c23a42aa4ac5b34ddfb7e17c7ad, type: 2}
+  - {fileID: 1745899142333766, guid: a11bfef2da88e409cbf19ad52a6dc1ad, type: 2}
+  - {fileID: 1117222546513178, guid: 0454e2472b9894345806f1f35c9093bc, type: 2}
+  - {fileID: 1898261285074872, guid: 50dd054f85e9b4be59fda1e99301a493, type: 2}
+  vectors:
+  - {x: -2, y: 0, z: -1}
+  - {x: 2, y: 0, z: -1}
+  - {x: -2, y: -3.2, z: -1}
+  - {x: 2, y: -3.2, z: -1}
+  pokLength: 0
+  randChoice: 0
+--- !u!114 &114663547991629290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653543433790570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0c262acd8ef4b7da014b5ad8874bd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiText: {fileID: 0}
+  mainTimer: 7
